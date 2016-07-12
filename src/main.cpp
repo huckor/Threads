@@ -16,7 +16,7 @@ int main(int argc, const char * argv[])
     __Mutex.Create();
     Thread::Create();
     
-    //After 2sec. sleep we will update our shared variable
+    //After 2sec. we will update our shared variable
 	SLEEP(2);
 
     __Mutex.Lock();
